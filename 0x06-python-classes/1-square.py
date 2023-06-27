@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-class Square:
-    __size = None
+"""Task"""
 
+
+class Square:
+    """This is an empty class"""
     def __init__(self, size=None):
         self.__size = size
