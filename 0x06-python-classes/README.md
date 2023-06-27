@@ -1,7 +1,6 @@
 <h1>0x06. Python - Classes and Objects</h1>
-<p>General learning objectives</p>
+<h2>General learning objectives</h2>
 <ul>
-  <li>General learning objectives</li>
   <li>What is OOP</li>
   <li>“first-class everything”</li>
   <li>What is a class</li>
