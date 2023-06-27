@@ -1,5 +1,11 @@
 #!/usr/bin/python3
+"""Node"""
+
+
 class Node:
+    """
+    Class Node
+    """
 
     def __init__(self, data, next_node=None):
         self.data = data
@@ -7,16 +13,19 @@ class Node:
 
     @property
     def data(self):
+        """Data getter"""
         return self.__data
 
     @data.setter
     def data(self, value):
+        """Data setter"""
         if type(value) is not int:
             raise TypeError("data must be an integer")
         self.__data = value
 
     @property
     def next_node(self):
+        """next_node getter"""
         return self.__next_node
 
     @next_node.setter
@@ -27,6 +36,7 @@ class Node:
 
 
 class SinglyLinkedList:
+    """Class SinglyLinkedList"""
 
     def __init__(self):
         self.__head = None
@@ -43,6 +53,7 @@ class SinglyLinkedList:
         return string
 
     def sorted_insert(self, value):
+        """Insert values"""
 
         new = Node(value)
         if self.__head is None:
