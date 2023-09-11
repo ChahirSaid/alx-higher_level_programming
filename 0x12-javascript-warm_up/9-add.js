@@ -1,11 +1,10 @@
 #!/usr/bin/node
 
-const num = Math.floor(+process.argv[2]);
-
-if (isNaN(num)) {
-  console.log('Missing size');
-} else {
-  for (let i = 0; i < num; i++) {
-    console.log('X'.repeat(num));
-  }
+function add (a, b) {
+  console.log(a + b);
 }
+
+const a = +process.argv[2];
+const b = +process.argv[3];
+
+add(a, b);
